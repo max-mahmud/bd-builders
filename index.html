@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- ==============================header area================================ -->
+    <header class="header-area bg-light">
+        <nav class="navbar container  navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">BD Builders</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link k" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ===============main start -->
+    <main class="hero-section">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imges/hero-one.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imges/hero-two.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imges/hero-three.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imges/hero-four.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <!-- ======================about section -->
+    <div class="about mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="imges/about.jpg" class="w-100" alt="photo">
+                    </div>
+                </div>
+                <div class="col-lg-6 align-items-center d-flex">
+                    <div class="about-text ps-lg-4 pt-4 pt-lg-0">
+                        <h3>Learn More About us</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum tempore voluptatibus
+                            suscipit? Expedita ab reiciendis rerum necessitatibus! Cupiditate sed perspiciatis eum,
+                            velit voluptates fuga nobis nostrum impedit autem!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum tempore voluptatibus
+                            suscipit? Expedita ab reiciendis rerum necessitatibus! Cupiditate sed perspiciatis eum,
+                            velit voluptates fuga nobis nostrum impedit autem!</p>
+                        <button class="btn btn-secondary">Learn more</button>
+                        <button class="btn btn-danger">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================Service section -->
+    <section class="service bg-light mt-5">
+        <div class="container">
+            <h3 class="text-center">Our service</h3>
+            <p class="text-center mb-5">Learn more about our awesome service</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card"">
+                    <img src=" imges/hero-one.jpg" class="card-img-top" alt="Service Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Service one</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pt-4 pt-md-0">
+                    <div class="card"">
+                    <img src=" imges/hero-one.jpg" class="card-img-top" alt="Service Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Service one</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-danger btn-sm">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
+                    <div class="card"">
+                    <img src=" imges/hero-one.jpg" class="card-img-top" alt="Service Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Service one</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
+                    <div class="card"">
+                    <img src=" imges/hero-one.jpg" class="card-img-top" alt="Service Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Service one</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-danger btn-sm">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================Company details====================== -->
+    <section class="company mt-5">
+        <div class="container">
+            <h3 class="text-center">Our Company</h3>
+            <p class="text-center mb-5">Learn more about our Company</p>
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Company details
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.company-info</code> class. This is the first item's accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Service details
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.company-info</code> class. This is the second item's
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Payment details
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.company-info</code> class. This is the third item's accordion
+                                    body. Nothing more exciting happening here in terms of content, but just filling up
+                                    the space to make it look, at least at first glance, a bit more representative of
+                                    how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================contact us =========================== -->
+    <section class="company mt-5">
+        <div class="container">
+            <h3 class="text-center">Our Company</h3>
+            <p class="text-center mb-5">Learn more about our Company</p>
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="first-name" class="form-label">First name</label>
+                                    <input type="text" class="form-control" id="first-name" placeholder="John">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="last-name" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="last-name" placeholder="doe">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone No</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="+880 0000 0000">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                    <textarea class="form-control" placeholder="write message"
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <section class="partner mt-5">
+        <div class="container">
+            <div class="row row-cols-lg-5 row-cols-2 justify-content-center">
+                <div class=" col partner-img">
+                    <img class="w-100 p-3" src="imges/p-one.jpg" alt="photo">
+                </div>
+                <div class=" col partner-img">
+                    <img class="w-100 p-3" src="imges/p-two.jpg" alt="photo">
+                </div>
+                <div class=" col partner-img">
+                    <img class="w-100 p-3" src="imges/p-three.jpg" alt="photo">
+                </div>
+                <div class=" col partner-img">
+                    <img class="w-100 p-3" src="imges/p-four.jpg" alt="photo">
+                </div>
+                <div class=" col partner-img">
+                    <img class="w-100 p-3" src="imges/p-five.jpg" alt="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container bg-light text-center py-3">
+            <div class="footer-text">
+                <p> &copy; BD Builders 6/1/2023. All right reserve </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
